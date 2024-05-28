@@ -5,7 +5,6 @@ export default function Card({ title, image, description ,price,addCart,removeCa
     const [isExpanded, setIsExpanded] = useState(false);
     const [buttonText,setButtonText]=useState('ADD TO CART')
  
-
     const toggleReadMore = () => {
         setIsExpanded(!isExpanded);
     };
