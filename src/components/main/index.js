@@ -4,6 +4,7 @@ import CartItems from "../cartItems";
 import Layout from "../layout";
 import List from "../itemList";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Merge } from "../layout";
 
 export default function Main()
 {
@@ -12,7 +13,7 @@ export default function Main()
     <BrowserRouter  basename={process.env.PUBLIC_URL}>
     <Routes>
        <Route path='' element={<Layout/>} >
-            <Route index element={<List/>} />
+            <Route index element={<Merge/>} />
             <Route path='cart' element={<CartItems/>} />
 
        </Route>
