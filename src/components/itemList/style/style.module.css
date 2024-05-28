@@ -1,0 +1,28 @@
+    .imageContainer {
+      width: 100%;
+      height: 20rem;
+    }
+    .imageContainer img {
+      width: 90%;
+      height: 80%;
+    }
+
+
+    .description {
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3; /* Show only 3 lines */
+      -webkit-box-orient: vertical;
+    }
+    
+    .description.expanded {
+      -webkit-line-clamp: unset; /* Show full text when expanded */
+      display: block; /* Ensure full text is displayed */
+    }
+    
+    .readMore {
+      color: blue;
+      cursor: pointer;
+      text-decoration: underline;
+      margin-top: 0.5rem;
+    }

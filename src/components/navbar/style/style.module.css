@@ -1,0 +1,19 @@
+.middleSection
+{
+   background-image: url('/public/images/electronic-store-hero-image.jpg');
+   width: 100%  ;
+   height: 100vh;
+   background-size: 100% 86%;
+   background-repeat: no-repeat;
+}
+
+.btnContainer > div:hover , button:hover{
+    color: red !important;
+    cursor: pointer !important;
+    transform: scale(1.2);
+}
+
+.linkItem:hover{
+    color: red !important;
+    cursor: pointer;
+  }
