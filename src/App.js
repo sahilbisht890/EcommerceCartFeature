@@ -3,6 +3,7 @@ import Main from './components/main/index'
 import "bootstrap-icons/font/bootstrap-icons.css";
 import { Provider } from 'react-redux';
 import store from './components/store';
+import './App.css'
 
 
 function App() {
