@@ -24,8 +24,8 @@ export default function CartItems() {
     }
     return (
         <>
-        <div><h1 className="text-center text-danger">Cart Items</h1></div>
-        <div className="d-flex align-items-center py-4 justify-content-center gap-5 flex-wrap">
+        <div><h1 className="text-center text-danger mt-4">Cart Items</h1></div>
+        <div className="d-flex align-items-center py-4 justify-content-center  gap-5 flex-wrap">
         {data && data.length > 0 ? (
                 data.map((element, index) => (
                         <Card 
@@ -47,7 +47,7 @@ export default function CartItems() {
                 <div>
                 <h2>No items in the cart.</h2>
                  <div className="text-center p-3">
-                 <button className="border border-none  fs-2 bg-warning fw-bolder py-3 px-4"><Link to='/' style={{color:'red',textDecoration:'none'}}>Shopping</Link></button>
+                 <button className="border border-none  fs-2 bg-warning fw-bolder py-2 px-3"><Link to='/' style={{color:'black',textDecoration:'none'}}>Shop Products</Link></button>
                  </div>
                 </div>
               

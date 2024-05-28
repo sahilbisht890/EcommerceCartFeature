@@ -42,9 +42,9 @@ export default function Card({ title, image, description ,price,addCart,removeCa
                     </div> 
                 </div>
             </div>
-            <div className='d-flex justify-content-between text-danger pe-4'>
+            <div className='d-flex justify-content-between align-items-center text-danger pe-4'>
                 <h4 className='m-0'>$ {price}</h4>
-                { purpose=='remove'?<div className='d-flex align-items-center gap-3 justify-content-center'><h4 className='m-0'>Quantity : {quantity} </h4><i className="bi bi-dash-circle-fill"  onClick={decrease}></i> <i onClick={increase}   className="bi bi-plus-circle-fill"></i> </div>:<></> }
+                { purpose=='remove'?<div className='d-flex align-items-center gap-2 justify-content-center'><p className='fs-5 fw-bold m-0'>Quantity : {quantity} </p><i className="bi fs-3 bi-dash-circle-fill"  onClick={decrease}></i> <i onClick={increase}   className="bi fs-3 bi-plus-circle-fill"></i> </div>:<></> }
 
             </div>
             <div>
