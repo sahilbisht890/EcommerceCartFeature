@@ -1,3 +1,8 @@
+#This is simple website in which i have implement cart feature
+# IMPORTANT
+# You can see the products in All Products and can add the Product in cart 
+# You can check items added in Cart in Your Cart option at the navbar 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
